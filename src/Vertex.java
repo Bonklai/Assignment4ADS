@@ -1,8 +1,9 @@
+import java.util.HashMap;
 import java.util.Map;
 
 public class Vertex<V> {
     private  V data;
-    private Map<Vertex<V>, Double > adjVertices;
+    private HashMap<Vertex<V>, Double > adjVertices;
     public Vertex(V data){
         setData(data);
     }
@@ -22,5 +23,8 @@ public class Vertex<V> {
     public Map<Vertex<V>, Double> getAdjVertices() {
         return adjVertices;
     }
+
+
+
 
 }

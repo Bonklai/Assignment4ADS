@@ -6,9 +6,9 @@ public class Edge<Vertex> {
     private double weight;
 
     public Edge(Vertex source, Vertex dest, Double weight) {
-        this.source = source;
-        this.dest = dest;
-        this.weight =  weight;
+        setSource(source);
+        setDest(dest);
+        setWeight(weight);
     }
     //getter and setters
 
@@ -35,16 +35,5 @@ public class Edge<Vertex> {
     public Vertex getSource() {
         return source;
     }
-
-
-
-
-
-
-
-
-
-
-
 
 }
